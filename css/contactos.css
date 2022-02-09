@@ -1,0 +1,52 @@
+.section__contactos{
+    width: 100%;
+    height: auto;
+}
+.container__info{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.container__info .info{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
+.info-mesage form{
+    width: 100%;
+    background: rgb(223, 147, 147);
+    margin: 10px;
+}
+.info-mesage form input{
+    background: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.info-mesage textarea{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    outline: none;
+    padding: 5px;
+    border: 0;
+}
+
+@media (max-width: 768px){
+    .container__info{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .container__info .info{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .info-mesage form{
+        width: 100%;
+        background: rgb(223, 147, 147);
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+}

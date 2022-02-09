@@ -1,0 +1,70 @@
+.modal-body {
+    width:100% !important;
+    padding:0 !important;
+}
+.modal-body img {
+    width:100% !important;
+    padding:0 !important;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.171);
+}
+
+.infoProdmod{
+    width:100% !important;
+    height: auto;
+    padding:20px;
+    display: block;
+}
+.infoProdmod a{
+    width:100% !important;
+    height: auto;
+    display: block;
+    text-decoration: none;
+}
+
+.info_pedir__whats{
+    padding:10px;
+    background:rgb(29, 167, 10);
+    text-align:center;
+    color:white;
+    margin-top: 20px;
+}
+
+.info_pedir__whats:hover{
+    padding:10px;
+    background:rgb(5, 122, 5);
+    text-align:center;
+    color:rgb(255, 255, 255);
+    
+}
+
+.info_pedir__facebook{
+    padding:10px;
+    background:rgb(10, 109, 167);
+    text-align:center;
+    color:white;
+    margin-top: 20px;
+}
+
+.info_pedir__facebook:hover{
+    padding:10px;
+    background:rgb(24, 114, 216);
+    text-align:center;
+    color:rgb(255, 255, 255);
+    
+}
+
+.modprodclose{
+    background:transparent;
+    position: absolute;
+    width:40px;
+    height: 40px;
+    border:0;
+    font-size: 30px;
+}
+.modprodclose:hover{
+    color:red;
+}
+
+.redesmensajesprod{
+    display:flex;
+}
